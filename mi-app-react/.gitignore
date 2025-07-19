@@ -1,0 +1,46 @@
+# #################### #
+#  GENERAL / SISTEMA   #
+# #################### #
+
+# Archivos de registro y dependencias
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno - ¡NUNCA subas tus secretos!
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de editores
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ####################### #
+#  FRONTEND: mi-app-react #
+# ####################### #
+mi-app-react/node_modules/
+mi-app-react/build/
+mi-app-react/.pnp
+mi-app-react/.pnp.js
+mi-app-react/coverage/
+
+# ####################### #
+#  BACKEND: pico-placa-api #
+# ####################### #
+# Asumiendo que es un backend de Node.js. Si es otro, ajústalo.
+pico-placa-api/node_modules/
+pico-placa-api/dist/  # O la carpeta donde se compila el código (ej. 'build')
+pico-placa-api/coverage/
